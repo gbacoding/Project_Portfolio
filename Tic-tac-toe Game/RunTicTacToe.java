@@ -65,6 +65,9 @@ public class RunTicTacToe {
 
 
         // DATA OUTPUT
+        System.out.print(matrix[0][2]+"  "+matrix[1][2]+"  "+matrix[2][2]+"\n");
+        System.out.print(matrix[0][1]+"  "+matrix[1][1]+"  "+matrix[2][1]+"\n");
+        System.out.print(matrix[0][0]+"  "+matrix[1][0]+"  "+matrix[2][0]+"\n");
     }
 
 
