@@ -3,7 +3,7 @@ public class Board {
     /** buildes **/
     Board () {
     }
-    
+
     /** 
      * Displays the current state of the game board on the console 
      */
