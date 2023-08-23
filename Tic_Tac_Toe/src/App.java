@@ -2,12 +2,10 @@ public class App {
     public static void main(String[] args) throws Exception {
         
         // Declare matrix
-        String [][] gameMatrix = new String[3][3];
-        
-        // Formacion de la matriz del tablero
+        String [][] gameMatrix = { {" "," "," "}, {" "," "," "}, {" "," "," "} };
 
         // Comprobar si hay una combinación ganadora (a partir del 5º turno (4- 0,1,2,3,4))
-
+        User.init();
         // Mostrar tablero
         Board.displayBoard(gameMatrix);
 
