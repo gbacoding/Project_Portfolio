@@ -4,8 +4,10 @@ public class Board {
     Board () {
     }
     
-    /** This Method traverse the String Array of the game in a graphic mode **/
-    static void print(String [][] matrix){    
+    /** 
+     * Displays the current state of the game board on the console 
+     */
+    static void displayBoard(String [][] matrix){    
         for(String [] row: matrix){
             for (String element: row){
                 System.out.print(element+ " ");
@@ -13,4 +15,5 @@ public class Board {
             System.out.println();
         }
     }
+    
 }

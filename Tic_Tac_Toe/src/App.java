@@ -7,7 +7,7 @@ public class App {
         // Comprobar si hay una combinación ganadora (a partir del 5º turno (4- 0,1,2,3,4))
 
         // Mostrar tablero
-        Board.print(gameMatrix);
+        Board.displayBoard(gameMatrix);
 
         // Mensaje ganador perdedor
     }
