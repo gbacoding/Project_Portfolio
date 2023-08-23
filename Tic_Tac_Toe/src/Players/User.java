@@ -1,37 +1,26 @@
 package Players;
 
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class User extends Players {
 
-    public static void main(String [] args){
+    User () {
+    }
+
+    static void init () {
     //Varibales INPUT
     String inputName;
-    
-    //Output variables
-
-
+ 
     //Constructor Player class
-    Players user = new Players();
-
-    // Constructor Scanner Class
-    Scanner src = new Scanner(System.in);
-    
+    User user1 = new User();
 
     // DATA INPUT
     System.out.println("Introduce your name");
-    inputName = src.nextLine();
+    inputName = JOptionPane.showInputDialog("Please, enter you name.");
 
     // PROCESSING
-    user.setName(inputName);
-    user.setSymbol("x");    
-
-    
-
-    // DATA OUTPUT
-
-
-    
+    user1.setName(inputName);
+    user1.setSymbol("X");    
 
     }
 
