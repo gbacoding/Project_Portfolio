@@ -36,13 +36,12 @@ public class User {
     public static void init () {
         inputName = JOptionPane.showInputDialog("Please, enter you name.");
         user1.setName(inputName);
-        user1.setSymbol("X");    
+        user1.setSymbol("X");   
+        String welcomeMessage = JOptionPane.showInputDialog("Hi " + user1.getName()+"\n"+"Please, press any letter to start."); 
     }
 
     public static void yourTurn(){
-        String welcomeMessage = JOptionPane.showInputDialog("Hi " + user1.getName());
         
-
     }
 
 }
