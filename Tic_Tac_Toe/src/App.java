@@ -6,7 +6,8 @@ public class App {
 
         // Comprobar si hay una combinación ganadora (a partir del 5º turno (4- 0,1,2,3,4))
         User.init();
-        User.yourTurn();
+        User.yourTurn(gameMatrix);
+        
         // Mostrar tablero
         Board.displayBoard(gameMatrix);
 
