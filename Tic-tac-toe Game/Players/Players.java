@@ -20,12 +20,12 @@ package Players;
         }
 
         //Setter method to set symbol
-        void setSymbol(String name){
-            this.name = name;
+        void setSymbol(String symbol){
+            this.symbol = symbol;
         }
 
         //Getter method to set symbol
         String getSymbol(){
-            return name;
+            return symbol;
         }
 }

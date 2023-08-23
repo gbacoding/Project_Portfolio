@@ -26,6 +26,8 @@ public class User extends Players {
     user.setName(inputName);
     user.setSymbol("x");    
 
+    
+
     // DATA OUTPUT
 
 
